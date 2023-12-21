@@ -1,0 +1,211 @@
+
+.category {
+    display: flex;
+    flex-direction: row;
+    width:1110px ;
+    height:284px ;
+    margin-left: 165px;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width:350px ;
+    height:284px ;
+    margin-left: 0px;
+    margin-top: 120px;
+    box-shadow: solid 2px red;
+}
+.catImage{
+    width: 122.95px;
+    height: 160px;
+    margin-left: 51.32px;
+    margin-top: 0px;
+   
+    
+}
+.innercard{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 204px;
+    margin-left: 0px;
+    margin-top: 28.68px;
+    background-color: #979797;
+    z-index: -1;
+}
+.innerCard2{
+    width: 133px;
+    height: 25px;
+    margin-left: 108.5px;
+    font-weight: bold;
+    color: black;
+}
+.but-cat{
+    width: 57.32px;
+    height: 18px;
+    margin-left: 146px;
+}
+
+/* Category 2 CSS */
+
+.category2{
+    display: flex;
+    flex-direction: row;
+    width: 1110px;
+    height: 560px;
+    margin-top: 168px;
+    margin-left: 165px;
+    background-color: #D87D4A;
+}
+.imagecat2{
+    width: 410.23px;
+    height: 493px;
+    margin-top: 96px;
+    margin-left: 117.49px;
+}
+.textcat2{
+    display: flex;
+    flex-direction: column;
+    gap: 1;
+    width: 349px;
+    height: 303px;
+    margin-top: 133px;
+    margin-left: 138.28px;
+    color: white;
+}
+.headcat2 {
+    width: 261px;
+    height: 116px;
+    font-size: 56px;
+    font-weight: bold;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    line-height: 58px;
+    text-align: top;
+}
+
+.paracat2{
+    width: 349px;
+    height: 75px;
+    margin-top: 7px;
+    line-height: 25px;
+    font-size: 15px;
+    font-family: 'Manrope', sans-serif;
+}
+.butcat2 p{
+    width: 99px;
+    height: 18px;
+    margin-top: 15px;
+    margin-left: 31.5px;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: white;
+}
+.butcat2 {
+    width: 160px;
+    height: 48px;
+    margin-top: 15px;
+    margin-left: 0px;
+    background-color: black;
+    color: white;
+}
+
+/*  Category 3 CSS */
+
+.category3{
+    
+    width: 1110px;
+    height: 320px;
+    margin-left: 165px;
+    margin-top: 48px;
+}
+
+.imagecat3 {
+    position:absolute;
+    width: 1110px;
+    height: 320px;
+    margin-top: 48px;
+    z-index: -1;
+    
+}
+.textcats3 {
+    width: 204px;
+    height: 118px;
+    margin-left: 95px;
+    margin-top: 101px;
+}
+.headcat3{
+    display: inline-block;
+    width: 202px;
+    height: 38px;
+    margin-top: 101px;
+}
+.butcat3{
+    width: 160px;
+    height: 48px;
+
+}
+
+
+/* Category 4 CSS */
+
+.category4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1110px;
+    height: 320px;
+    margin-left: 165px;
+    margin-top: 48px;
+}
+.imagecat4{
+    width: 540px;
+    height: 320px;
+    margin-top: 48px;
+    
+}
+
+.textcat4{
+    width: 540px;
+    height: 320px;
+    margin-top: 48px;
+    background-color: #979797;
+}
+.textonly4 {
+    width: 247px;
+    height: 118px;
+    margin-left: 165px;
+    margin-top: 101px;
+}
+
+/* Category 5 CSS */
+.category5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1110px;
+    height: 588px;
+    margin-left: 165px;
+    margin-top: 48px;
+}
+.textcat5 {
+    width: 540px;
+    height: 588px;
+    margin-top: 48px;
+}
+.imagecat5 {
+    width: 540px;
+    height: 588px;
+    margin-top: 48px;
+}
+.headcat5{
+    width: 445px;
+    margin-top: 147px;
+    line-height: 44px;
+    word-spacing: 1.43px;
+    font-weight: bold;
+}

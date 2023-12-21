@@ -1,0 +1,59 @@
+.foot-App {
+    text-align: center;
+    color: white;
+    min-height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    margin-top: 200px;
+    background-color: #101010;
+  }
+  .foot-App-Content{
+    display: flex;
+    flex-direction: row;
+    margin-top:36px ;
+
+  
+  }
+
+  .foot-prod-content{
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 100px;
+    margin-left: 165px;
+    margin-top: 36px;
+    text-align: left;
+    color: #979797;
+  }
+.social{
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+    margin-left: 466px;
+}
+  .social-all {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+   
+  }
+  
+  
+  .copyright {
+    width: 540px ;
+    height: 25px;
+    line-height: 25px;
+    color: #979797;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: manrope;
+    margin-top: 56px;
+    margin-left: 21px;
+    
+  }
+  
+  
+  
