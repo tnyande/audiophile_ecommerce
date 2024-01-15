@@ -1,7 +1,7 @@
 .foot-App {
     text-align: center;
     color: white;
-    min-height: 50vh;
+    min-height: 36.5vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,9 +13,7 @@
   .foot-App-Content{
     display: flex;
     flex-direction: row;
-    margin-top:36px ;
-
-  
+    margin-top:36px;
   }
 
   .foot-prod-content{

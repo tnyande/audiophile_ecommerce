@@ -21,6 +21,19 @@
     margin-top: 35px;
     margin-left: 681px;
     justify-content: space-between;
+    
+}
+.speaker{
     cursor: pointer;
 }
 
+.home{
+    cursor: pointer;
+}
+
+.earphone{
+    cursor: pointer;
+}
+.headfone{
+    cursor: pointer;
+}

@@ -4,11 +4,36 @@ import './index.css';
 import App from './App';
 //import Hero from './component/Hero';
 import reportWebVitals from './reportWebVitals';
+import Headfone from './Headfone';
+import Speakers from './Speakers';
+import {createBrowserRouter,RouterProvider} from 'react-router-dom';
+import Earfone from './Earfone';
+
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />
+    },
+    {
+      path: "headfones",
+      element: <Headfone />
+    },
+    {
+      path:'speakers',
+      element: <Speakers />
+    },
+    {
+      path:'earfones',
+      element: <Earfone />
+    }
+  ]
+)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
